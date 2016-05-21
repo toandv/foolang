@@ -1,2 +1,2 @@
 # foo-lang
-Functional Objected-Orietend Programming Language influenced by Java, Scala, Ruby. 
+A **f**unctional **o**bjected **o**rietend programming **lang**uage influenced by Java, Scala, Ruby. 

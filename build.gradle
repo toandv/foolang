@@ -1,0 +1,24 @@
+apply plugin: 'java'
+apply plugin: 'scala'
+
+group = 'io.github.toandv'
+version = '0.0.1'
+
+description = "A functional object-oritented programming language."
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+repositories {
+    maven { url "http://repo.maven.apache.org/maven2" }
+    jcenter()
+}
+dependencies {
+    compile 'org.scala-lang:scala-library:2.11.8'
+    // We use Scalatest for testing our library
+    testCompile 'junit:junit:4.12'
+    testCompile 'org.scalatest:scalatest_2.11:2.2.6'
+    testRuntime 'org.scala-lang.modules:scala-xml_2.11:1.0.5'
+}
+
+
